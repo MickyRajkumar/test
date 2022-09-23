@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "intervention_programs",
+  "info": {
+    "singularName": "intervention-program",
+    "pluralName": "intervention-programs",
+    "displayName": "training",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intervention_program_title": {
+      "type": "text"
+    },
+    "intervention_program_heading": {
+      "type": "text"
+    },
+    "intervention_program_description": {
+      "type": "richtext"
+    },
+    "intervention_program_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "robotic_title": {
+      "type": "text"
+    },
+    "robotic_heading": {
+      "type": "text"
+    },
+    "robotic_description": {
+      "type": "text"
+    },
+    "robotic_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

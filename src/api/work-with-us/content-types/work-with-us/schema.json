@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_with_uses",
+  "info": {
+    "singularName": "work-with-us",
+    "pluralName": "work-with-uses",
+    "displayName": "work_with_us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
